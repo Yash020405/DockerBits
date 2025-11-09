@@ -1,0 +1,32 @@
+# Git files
+.git
+.gitignore
+
+# Documentation files  
+*.md
+GITHUB_SETUP.md
+
+# HTML files (not needed for Python app)
+*.html
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
