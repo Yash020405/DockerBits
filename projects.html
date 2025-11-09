@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - DevOps Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background: #444;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+        nav a:hover, nav a.active {
+            background: #555;
+        }
+        .content {
+            background: #fff;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .project h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .tech-tag {
+            background: #667eea;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .completed {
+            background: #4CAF50;
+            color: white;
+        }
+        .in-progress {
+            background: #FF9800;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevOps Portfolio</h1>
+        <p>Git, Docker & Containerization Demo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h2>DevOps Projects Showcase</h2>
+            <p>Here are the key projects and demonstrations completed as part of this DevOps assignment.</p>
+
+            <div class="project">
+                <h3>🌐 Portfolio Web Application</h3>
+                <span class="status completed">Completed</span>
+                <p>A responsive multi-page web application built with HTML5 and CSS3 to demonstrate frontend development skills and provide content for version control and containerization exercises.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">Responsive Design</span>
+                </div>
+                <p><strong>Features:</strong> Navigation system, responsive layout, modern CSS styling, semantic HTML structure</p>
+            </div>
+
+            <div class="project">
+                <h3>🔄 Git Version Control Demo</h3>
+                <span class="status completed">Completed</span>
+                <p>Comprehensive demonstration of Git workflow including repository initialization, staging, committing, branching, and remote repository integration with GitHub.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">GitHub</span>
+                    <span class="tech-tag">Version Control</span>
+                </div>
+                <p><strong>Commands Demonstrated:</strong> git init, status, add, commit, log, branch, switch, push</p>
+            </div>
+
+            <div class="project">
+                <h3>🐳 Docker Containerization</h3>
+                <span class="status in-progress">In Progress</span>
+                <p>Creation of custom Docker images for application deployment, demonstrating containerization best practices and cloud deployment strategies.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Docker Hub</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Containerization</span>
+                </div>
+                <p><strong>Objectives:</strong> Dockerfile creation, image building, registry deployment, local container execution</p>
+            </div>
+
+            <div class="project">
+                <h3>🐍 Python Hello World Application</h3>
+                <span class="status in-progress">In Progress</span>
+                <p>Simple Python web application created specifically for Docker containerization demonstration, showcasing how to package applications for deployment.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Web Development</span>
+                </div>
+                <p><strong>Purpose:</strong> Serve as the application layer for Docker containerization exercise</p>
+            </div>
+
+            <h3>🎯 Assignment Deliverables</h3>
+            <ul>
+                <li>✅ HTML web application (3 pages)</li>
+                <li>✅ Git repository with full command demonstration</li>
+                <li>🔄 GitHub repository integration</li>
+                <li>🔄 Custom Docker image</li>
+                <li>🔄 Docker Hub deployment</li>
+                <li>🔄 Local container execution</li>
+                <li>🔄 Comprehensive documentation</li>
+            </ul>
+
+            <p><em>This portfolio demonstrates practical implementation of DevOps fundamentals including version control, containerization, and cloud deployment strategies.</em></p>
+        </div>
+    </div>
+</body>
+</html>

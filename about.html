@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - DevOps Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background: #444;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+        nav a:hover, nav a.active {
+            background: #555;
+        }
+        .content {
+            background: #fff;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skill-card {
+            background: #e8f4f8;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #667eea;
+            border-radius: 3px;
+        }
+        .timeline {
+            border-left: 3px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        .timeline-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+            position: absolute;
+            left: -26px;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevOps Portfolio</h1>
+        <p>Git, Docker & Containerization Demo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h2>About This Project</h2>
+            <p>This project was created as part of a DevOps fundamentals assignment to demonstrate practical knowledge of version control and containerization technologies.</p>
+
+            <h3>Learning Objectives</h3>
+            <div class="skill-card">
+                <h4>🔧 Git & Version Control</h4>
+                <p>Master fundamental Git commands including repository initialization, staging changes, committing code, branching strategies, and remote repository management.</p>
+            </div>
+
+            <div class="skill-card">
+                <h4>🐳 Docker Containerization</h4>
+                <p>Learn to create custom Docker images, write efficient Dockerfiles, manage containers, and deploy applications using container technology.</p>
+            </div>
+
+            <div class="skill-card">
+                <h4>☁️ Cloud Integration</h4>
+                <p>Integrate with cloud platforms like GitHub for repository hosting and Docker Hub for container image registry management.</p>
+            </div>
+
+            <h3>Project Timeline</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Phase 1: Project Setup</h4>
+                    <p>Created HTML web application and initialized Git repository locally</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Phase 2: Version Control</h4>
+                    <p>Demonstrated Git workflow commands and pushed to GitHub</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Phase 3: Containerization</h4>
+                    <p>Created Docker image and deployed to Docker Hub</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Phase 4: Documentation</h4>
+                    <p>Compiled comprehensive documentation with screenshots</p>
+                </div>
+            </div>
+
+            <h3>Technical Skills Demonstrated</h3>
+            <ul>
+                <li>HTML/CSS web development</li>
+                <li>Git repository management</li>
+                <li>GitHub collaboration</li>
+                <li>Docker image creation</li>
+                <li>Container deployment</li>
+                <li>Documentation practices</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
